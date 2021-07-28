@@ -47,6 +47,24 @@ img {
   background: #000;
   margin: 10px auto;
 }
+.subtitulo-interno {
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: bold;
+  letter-spacing: 0.1em;
+  color: #000;
+  text-transform: uppercase;
+
+  margin-bottom: 20px;
+}
+.subtitulo-interno:after {
+  content: "";
+  display: block;
+  width: 60px;
+  height: 3px;
+  background: #000;
+  margin: 10px 0;
+}
 
 /* Header */
 .header {
@@ -76,6 +94,9 @@ img {
   padding: 10px 0;
 }
 .header_menu ul li a:hover {
+  color: #fff;
+}
+.header_menu ul li a.menu_ativo {
   color: #fff;
 }
 
@@ -209,7 +230,9 @@ img {
 /*qualidade*/
 
 .qualidade {
+  position: relative;
   padding: 60px 0;
+  overflow: auto; /* Serve para limpar a flutuação* quando um elemento sobe em cima de outro*/
 }
 .qualidade::after {
   content: "";
