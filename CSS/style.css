@@ -281,6 +281,7 @@ img {
   background-size: cover;
   text-align: center;
   padding-top: 40px;
+  overflow: auto;
 }
 .quebra .quote-externo {
   max-width: 400px;
