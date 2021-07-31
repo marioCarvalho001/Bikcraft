@@ -211,6 +211,7 @@ img {
 /*portfólio*/
 .portifolio {
   width: 100%;
+  overflow: auto;
   background: #000;
   padding: 40px 0;
 }
