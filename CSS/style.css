@@ -9,7 +9,7 @@ p {
 }
 img {
   display: block;
-  max-width: 100%;
+  max-width: auto;
 }
 .btn {
   border: 3px solid #fec63e;
