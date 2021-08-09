@@ -12,6 +12,9 @@
    <link rel="stylesheet" href="CSS/style.css">
    <link rel="stylesheet" href="CSS/portifolio.css">
    <link rel="stylesheet" href="CSS/responsivo.css">
+   <script>document.documentElement.classList.add("js");</script>
+
+
 </head>
 
 <body>
@@ -31,24 +34,38 @@
 
    <section class="introducao-interna interna_portifolio">
       <div class="container">
-         <h1>Portifolio</h1>
-         <p>Conheça os projetos que amamos mostrar</p>
+         <h1 data-anime="400" class="fadeInDown">Portifolio</h1>
+         <p data-anime="800" class="fadeInDown">Conheça os projetos que amamos mostrar</p>
       </div>
    </section>
 
-   <section class="container">
+   <section class="container fadeInDown" data-anime="1200" data-slide="quote">
       <blockquote class="quote_clientes">
          <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulaçao da gestão inovadora da qual fazemos parte."</p>
          <cite>Barbara Moss</cite>
       </blockquote>
+      <blockquote class="quote_clientes">
+         <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulaçao da gestão inovadora da qual fazemos parte."</p>
+         <cite>Carlinho matador</cite>
+      </blockquote>
+      <blockquote class="quote_clientes">
+         <p>"No mundo atual, a contínua expansão de nossa atividade cumpre um papel essencial na formulaçao da gestão inovadora da qual fazemos parte."</p>
+         <cite>Josias do boteco</cite>
+      </blockquote>
    </section>
 
    <section class="portifolio">
-      <div class="container">
+      <div class="container" data-slide="portifolio">
          <ul class="portifolio_lista">
             <li class="grid-8"> <img src="IMG/portfolio/retro.jpg" alt="Bicicleta retro"> </li>
             <li class="grid-8"> <img src=" IMG/portfolio/passeio.jpg" alt="Bicicleta passeio"> </li>
             <li class="grid-16"> <img src="IMG/portfolio/esporte.jpg" alt=" Bicicleta esporte"> </li>
+         </ul>
+         <ul class="portifolio_lista">
+            <li class="grid-16"> <img src="IMG/portfolio/esporte.jpg" alt=" Bicicleta esporte"> </li>
+            <li class="grid-8"> <img src=" IMG/portfolio/passeio.jpg" alt="Bicicleta passeio"> </li>
+            <li class="grid-8"> <img src="IMG/portfolio/retro.jpg" alt="Bicicleta retro"> </li>
+
          </ul>
       </div>
    </section>
@@ -109,7 +126,9 @@
 
    </footer>
 
-
+   <script src="./js/simple-slide.js"></script>
+   <script src="./JS/simple-anime.js"></script>
+   <script src="./js/script.js"></script>
 
 </body>
 
